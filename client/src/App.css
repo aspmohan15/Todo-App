@@ -1,0 +1,93 @@
+
+
+body{
+  width : 80%;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+}
+
+
+header > h1 {
+  font-size: 100px;
+  color : #2c3e50;
+  font-weight: 800;
+  letter-spacing: 15px;
+}
+
+
+.input {
+  width: 100%;
+  font-size: 20px;
+  color : #2c3e50;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding : 5px;
+}
+
+
+.task {
+  background-color: #34495e;
+  padding : 15px;
+  margin: 5px; 
+  list-style-type: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.task span {
+  color: white;
+}
+
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article{
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+
+.tab-button{
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.tab-button.selected {
+  color : #FFF;
+  background-color: #6c6c6c;
+}
+
+
+
+.tab-button.clear{
+  float: right;
+   color: white;
+   background-color: #ee1630;
+   width: 170px
+}
