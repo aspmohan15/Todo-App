@@ -6,10 +6,8 @@ export const addTodo = async (req, res) =>{
         const newTodo = await todo.create({
             data : req.body.data,
             createdAt : Date.now()
-        })
-    
+        })    
         await newTodo.save();
-    
         res.status(201).send(newTodo);
     }
     catch(error){
