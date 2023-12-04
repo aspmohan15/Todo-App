@@ -5,10 +5,8 @@ import TodoForm from './Components/TodoForm';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <TodoForm/>
-      <Todo/>
+    <div style={{textAlign:"center"}}>
+      <h1>We're renovating our digital home. Stay tuned for the grand reopening!</h1>
     </div>
   );
 }
